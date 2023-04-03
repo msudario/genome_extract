@@ -82,8 +82,3 @@ def processar_arquivos(folder_input):
 
 if __name__ == '__main__':
     processar_arquivos(folder_input)
-
-    """ O if __name__ == '__main__': é uma verificação comum que se faz em Python para checar 
-se o script está sendo executado diretamente ou se está sendo importado como um módulo 
-em outro script. Se ele estiver sendo executado diretamente, ou seja, se o módulo for
-o programa principal, então a função processar_arquivos() será chamada. """
